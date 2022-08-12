@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "playwright:firefox": "playwright test --project replay-firefox",
+    "playwright:chrome": "playwright test --project replay-chromium"
   },
   "repository": {
     "type": "git",
