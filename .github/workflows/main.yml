@@ -1,6 +1,9 @@
 name: Playwright Tests
 on:
   pull_request:
+  schedule:
+    # what is this time
+    - cron: "0 0 * * *"
 
 jobs:
   playwright-tests:
