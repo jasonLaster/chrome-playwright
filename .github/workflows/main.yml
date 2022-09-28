@@ -25,7 +25,6 @@ jobs:
           # that uses a Replay runtime.
           project: replay-chromium
           # An API key (usually a Team API Key) to use to upload replays.
-          # Configure this via GitHub repo settings.
           api-key: rwk_d34GYBIUCDcIVJGiQFdtDZAFqtRREhacxd16f39rAzj
           # An optional working directory which is useful if the project being
           # tested resides in a subdirectory of the repository
