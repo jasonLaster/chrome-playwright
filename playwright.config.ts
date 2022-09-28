@@ -18,10 +18,10 @@ const config: PlaywrightTestConfig = {
       use: { ...(replayDevices["Replay Chromium"] as any) },
     },
 
-    // {
-    //   name: 'chromium',
-    //   use: { ...devices['Desktop Chrome'] },
-    // },
+    {
+      name: "chromium",
+      use: { ...devices["Desktop Chrome"] },
+    },
     // {
     //   name: 'firefox',
     //   use: { ...devices['Desktop Firefox'] },
